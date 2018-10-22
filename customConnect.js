@@ -8,7 +8,7 @@ app.use(function (req, res, next) {
 
 app.get('/login', function (req, res) {
     res.send('Hello World');
-})
+});
 
 app.listen(3000);
 console.log('访问http://127.0.0.1:3000');

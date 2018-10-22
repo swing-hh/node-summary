@@ -15,4 +15,4 @@ app.use(function (req, res, next) {
 });
 
 app.listen(3000);
-console.log('访问http://127.0.0.1:3000')
+console.log('访问http://127.0.0.1:3000');

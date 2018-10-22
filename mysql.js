@@ -11,7 +11,7 @@ connection.connect();//连接数据库
 
 connection.query('select * from yb_lift_user', function (err, rows, fields) {//执行sql语句
     if (err) throw err;
-    console.log(rows)
+    console.log(rows);
 });
 
 connection.end();//断开连接
